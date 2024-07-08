@@ -1,0 +1,18 @@
+body{
+    background-color: greenyellow;
+    /* Using backgorund images */
+
+    /* background-image: url(pic_bulbon.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom center; */
+    background:  rgba(234, 0, 255, 0.4) url(pic_bulbon.gif) no-repeat fixed top right;
+    
+}
+h1{
+    background-color: white;
+    border: width 2px;
+    border-style:dashed;
+    color:red;
+}

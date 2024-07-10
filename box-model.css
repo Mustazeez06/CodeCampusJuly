@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(0, 0, 0,0.9);
+    color:chartreuse;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-decoration: 1px overline underline line-through wavy wheat;
+    /* The border Shorthand */
+    /* border: 1px solid red; */
+    /* margin-inline: 100px; */
+    width: 500px;
+    /* padding: 25px; */
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;   
+    
+    
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+p{
+    border: 1px solid red;
+    margin-left: 40px;
+    /* CSS indentation */
+    /* text-indent: 40px; */
+    width: 70%;
+    height: 200px;
+    text-align: justify;
+    padding-left: 20px;
+    text-align-last: right;
+    /* line-height: 0px; */
+    overflow: auto;
+
+
+}
+h2{
+    display: inline;
+}

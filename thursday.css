@@ -1,0 +1,40 @@
+
+h1{
+    color: red;
+}
+h2{
+    color: rgb(145, 0, 48);
+}
+/* The style below is a descendant combinator */
+.understand{
+    color: purple;
+}
+/* The style below is a child combinator */
+.understand>p{
+    background-color: Yellow;
+}
+.coder>p{
+    color: red;
+}
+.coder+h2{
+    background-color: red;
+}
+.coder~h2{
+    text-align: center;
+}
+h2+.room{
+    background-color: green;
+}
+h1::first-letter{
+    color: blue;
+    font-size: 100px;
+}
+h1:hover{
+    color: greenyellow;
+    text-decoration: underline;
+    font-size: 70px;
+}
+::selection{
+    background-color:blueviolet;
+    color: rgb(236, 78, 78);
+}

@@ -1,0 +1,74 @@
+div.nav-wrapper:first-child{
+    text-decoration: none;
+    color: red;
+}
+.nav-wrapper{
+    background-color: yellow;
+}
+.nav-Link:nth-child(odd){
+    color: brown;
+}
+.nav-Link:nth-child(even){
+    background-color: grey;
+}
+.nav-Link:nth-child(5){
+font-size: 34px;
+}
+span {
+    height: 2rem;
+    width: 2rem;
+    background-color: blue;
+    display: inline-block;
+   }
+   span:nth-child(3n + 2){
+    background-color: #f90;
+   border-radius: 100%;
+}
+[data-type^="todo"]{
+    background-color: orangered;
+}
+[data-type$="chore"]{
+    font-size: 24px;
+}
+[class^="music"]{
+    background-color:blue;
+}
+[class$="coding"]{
+    font-size: 24px;
+}
+[class*="movie"]{
+    text-align: center;
+}
+p{
+    border: 2px solid green;
+    width: 150px;
+}
+.relative{
+    position: relative;
+    background-color:green;
+    color: whitesmoke;
+    left: ;
+    right:0;
+}
+.fixed{
+    position:fixed;
+    right: 0;
+    top: 0;
+    background-color: yellowgreen;
+
+}
+.parent{
+    position: relative;
+    width: 200px;
+    height: 500px;
+    border: 2px solid orangered;
+}
+.absolute{
+    position:absolute;
+    right: 0;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: blueviolet;
+}

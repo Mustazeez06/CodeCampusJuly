@@ -1,0 +1,55 @@
+.test{
+    width:800px;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap:wrap;
+
+}
+[class^="item"]{
+    box-sizing:border-box;
+    width: 400px;
+    height: 100px;
+    border: 1px solid blue;
+}
+.parent{
+    width: 80%;
+    height: 700px;
+    border: 3px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: justify;
+
+}
+.child{
+    width: 41%;
+    height: 200px;
+}
+.exercise-parent{
+    width: 80%;
+    display: flex;
+    margin:auto;
+    flex-wrap: wrap;
+}
+.exercise-parent p{
+    width: 40%;
+    text-align: justify;
+}
+.grow{
+    display: flex;
+    height: 200px;
+    border: 1px solid red;
+}
+[class^="chill"]{
+    height: 100px;
+    border: 1px solid blue;
+    /* width: 100px; */
+    flex-basis: 100px;
+}
+.chill1{
+    flex-grow: 1.5;
+}
+.chill2,.chill3{
+    flex-grow: 1;
+    align-self: flex-end;
+}

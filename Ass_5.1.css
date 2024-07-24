@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    margin: 300px 150px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+div{
+    display:inline-block;
+    
+}
+.lefty{
+    border: 1px hidden rgb(244, 166, 22);
+    width: 45.5%;
+    text-align: left;
+    font-family:sans-serif;
+    
+}
+.righty{
+    text-align: left;
+    border: 1px hidden salmon;
+    width: 45.5%;
+    font-family:sans-serif;
+}
+.banner{
+    width: 10px;;
+    text-align: left;
+    border: 1px hidden salmon;
+    box-sizing: border-box;
+    
+}
+div.wisp{
+    text-align: left;
+}
+.lip{
+    color: rgb(121, 121, 121);
+}
+a:visited{
+    text-decoration: none;
+}

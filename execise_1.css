@@ -1,0 +1,24 @@
+.cup{
+    display: flex;
+    background-color: black;
+    padding: 20px 0;
+}
+.first-Link{
+    margin-right: auto;
+    margin-left: 1rem;
+    color: yellow;
+    text-decoration: none;
+}
+.nav-Link{
+    margin-right: 2.75rem;
+    text-decoration: none;
+    color: whitesmoke; 
+}
+.nav-Link:hover{
+    color: black;
+    border: 1px solid yellow;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 7px;
+    background-color: yellow;
+}

@@ -1,0 +1,64 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+.dashed{
+    border: 5px black;
+    border-style: dashed;
+}
+.dotted{
+    border: 5px dotted black;
+}
+.double{
+    border: 5px double black;
+}
+.groove{
+    border: 5px groove black;
+}
+.ridge{
+    border: 5px ridge black;
+}
+.hidden{
+    border: 5px hidden black;
+}
+.inset{
+    border: 5px inset black;
+}
+.outset{
+    border: 5px outset black;
+}
+.unset{
+    border: 5px unset black;
+}
+.solid{
+    border: 5px solid black;
+}
+.inherit{
+    border: 5px inherit black;
+}
+.initial{
+    border: 5px initial black;
+}
+.none{
+    border: 5px none black;
+}
+.toppy{
+    border-width: 5px 0 0 0;
+    border-style: solid;
+    border-color: goldenrod;
+}
+.righty{
+    border-width: 0 5px 0 0;
+    border-style: solid;
+    border-color: burlywood;
+}
+.bottomy{
+    border-width: 0 0 5px 0;
+    border-style: solid;
+    border-color: greenyellow;
+}
+.lefty{
+    border-width: 0 0 0 5px;
+    border-style: solid;
+    border-color: red;
+}

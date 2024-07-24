@@ -1,0 +1,15 @@
+h1{
+    color: blue;
+}
+.A1{
+    color: brown;
+}
+h2.A1{
+    color: chartreuse;
+}
+#A01{
+    background-color: crimson;
+}
+p,h1{
+    background-color: darkgreen;
+}

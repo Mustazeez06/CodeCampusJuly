@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242,235,227);;
+}
+.content{
+    width: 50%;
+    display: flex;
+}
+.content img{
+    width: 50%;
+    border-start-start-radius: 20px;
+    border-end-start-radius: 20px;
+}
+.text{
+    padding: 30px 40px;
+    background-color: whitesmoke;
+    border-end-end-radius: 20px;
+    border-start-end-radius: 20px;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.price h2{
+    margin: 7px;
+}
+button{
+    width: 70%;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 7px 15px;
+}

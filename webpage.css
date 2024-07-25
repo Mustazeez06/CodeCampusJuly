@@ -23,6 +23,34 @@ body{
     margin-right: auto;
     font-size: 26px;
 }
+.dropdown1{
+    position: relative;
+    display: inline-block;
+}
+.dropbtn1{
+    display: flex;
+}
+.dropdown-content1{
+    display: none;
+    position: absolute;
+    background-color: rgb(63,44,51);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+.dropdown-content1 a {
+    color: rgb(219,154,100);
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+}
+.dropdown-content1 a:hover{
+    background-color: rgb(219,154,100);
+    color: azure;
+}
 .lastLink{
     color: rgb(219,154,100);
     text-decoration: none;
@@ -225,6 +253,7 @@ span.prog4{
 /* Show the dropdown on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+    margin-top: 20px;
 }
 .dropdown:hover{
     background-color: rgb(63,44,51);
@@ -233,9 +262,6 @@ span.prog4{
 }
 
 /* Change color of dropdown button when dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: rgb(219,154,100);
-    color: azure;
-}
+
 
 

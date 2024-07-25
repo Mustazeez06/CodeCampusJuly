@@ -1,0 +1,12 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 200px;
+    gap: 20px;
+}
+[class^="grid-item"]{
+    outline: 2px dashed orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
